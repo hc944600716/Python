@@ -11,10 +11,11 @@ import poplib
 
 host="outlook.office365.com"
 username="nb666.outlook.lv"
-passwd="hechuan520"
+passwd="xxxxxx"
 servers=poplib.POP3(host)
 servers.set_debuglevel(1)
 servers.user(username)
 servers.pass_(passwd)
 ret = servers.stat()
 print(ret)
+

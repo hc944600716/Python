@@ -21,9 +21,9 @@ import os,time
 today_date=time.strftime("%Y-%m-%d %H:%M:%S")
 
 
-my_sender = '944600716@qq.com'  # 发件人邮箱账号
-my_pass = 'mursqhryzmuobfgd'  # 发件人邮箱密码
-my_user = '944600716@qq.com'  # 收件人邮箱账号，我这边发送给自己
+my_sender = 'xxxxx'  # 发件人邮箱账号
+my_pass = 'xxxxx'  # 发件人邮箱密码
+my_user = 'xxxxx'  # 收件人邮箱账号，我这边发送给自己
 
 file_csv="../venv/day 1/链家重庆二手房.py"
 def attachment_csv(message,path,file_name):
@@ -56,4 +56,5 @@ ret = mail()
 if ret:
     print("邮件发送成功")
 else:
+
     print("邮件发送失败")
